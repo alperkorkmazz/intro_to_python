@@ -13,7 +13,13 @@ print(sampleList2)
 print(sampleList+sampleList2)
 print(sampleList2+sampleList)
 # reverse order?
-print('reverse check')
-print(sampleList.reverse())
+sampleList2.reverse()
+print(sampleList2)
 for o in reversed(sampleList2):
     print(o)
+
+list3 = [3,2,5,6,7,0]
+list3.reverse()
+print(list3)
+list3.sort()
+print(list3)
